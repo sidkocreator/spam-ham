@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 import joblib
 st.title("SPAM HAM CLASSIFIER")
 text_model = joblib.load("spam-ham")
